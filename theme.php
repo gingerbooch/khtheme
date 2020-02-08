@@ -64,7 +64,7 @@
 
         <footer class="container-fluid">
             <div class="text-right padding20">
-                <?= $Wcms->footer() ?>
+                <a href="<?php echo esc_url( __( 'https://kefirhena.com', 'kefirhena.com' ) ); ?>"><?php printf( __( '&copy; Copyright 2018-'.date(Y).' - kefirhena.com %s', 'kefirhena.com' ), '- Tous droits r&eacute;serv&eacute;s' ); ?></a>
 
             </div>
         </footer>
